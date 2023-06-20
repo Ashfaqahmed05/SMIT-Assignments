@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<link rel="stylesheet" href="form.css">
+<head>
+    <title>Registration form</title>
+    <h1>Student Registration Form </h1>
+    <form action="congrats.html">
+        <fieldset>
+            <p>Name : <input placeholder="Enter full name" type="text"></p>
+            <p>Father's name: <input placeholder="father name" type="text" ></p>
+            <p>Mother's name: <input placeholder="mother name" type="text"></p>
+            <p>Phone no: <input placeholder="Phone number" type="text" maxlength="11"></p>
+            <p>Email : <input placeholder="Sample@gmail.com" type="email" ></p>
+            <br>
+            <div>
+                Gender : <input id="maleRadio" type="radio" name="gender" >
+                <label for="maleRadio">Male</label>
+                        <input type="radio" name="gender">
+                <label for="femaleRadio">Female</label>
+            </div>
+            <div>
+                <p>Date Of Birth : <input type="date" name="DOB" id=""></p>
+            </div>
+            <div>
+                <p>Address : <input type="text" name="address" id=""  placeholder="H/no. Area "></p>
+            </div>
+            <div>
+                <p>Blood group : 
+                <select name="blood group" id="Blood group">
+                    <option >select group</option>
+                    <option value="O+">O+positive</option>
+                    <option value="O">O-negative</option>
+                    <option value="a+">A+positive</option>
+                    <option value="a-">A-nagetive</option>
+                    <option value="b+">B+positve</option>
+                    <option value="b-">B-nagetive</option>
+                    <option value="c+">C+positive</option>
+                    <option value="C-">C-negative</option>
+                    <option value="d+">D+positive</option>
+                    <option value="d-">D-negative</option>
+                </select></p>
+            </div>
+            <div>
+                Department :
+                     <input type="radio" name="department" id="for CSE">
+                        <label for="CSE">CSE</label>
+                    <input type="radio" name="department" id="for EEE">
+                        <label for="EEE">EEE</label>
+                    <input type="radio" name="department" id="for BBA">
+                        <label for="BBA">BBA</label>
+            </div>
+            <br>
+                course :
+                <input type="checkbox" name="C" id="">C
+                <input type="checkbox" name="C++" id="">C++
+                <input type="checkbox" name="java" id="">Java
+                <input type="checkbox" name="AI" id="">AI
+                <input type="checkbox" name="Machine learn" id="">Machine learning
+            <p>
+                upload your photo :
+                <input type="file" >
+            </p>
+            <button>
+                submit
+            </button>
+        </fieldset>
+    </form>
+    
+
+</head>
+<body>
+    
+</body>
+</html>
