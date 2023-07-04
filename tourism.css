@@ -39,3 +39,8 @@ h2{
 .pakistan{
     color: green;
 }
+.paragraph > button{
+    background: transparent;
+    width: 150px;
+    height: 50px;
+}
